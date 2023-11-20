@@ -7,7 +7,15 @@ function ProductBoard({ product }) {
   const dispatch = useDispatch();
   const nav = useNavigate();
   const addToCart = () => {
-    dispatch(cartAction.ADD(product));
+    dispatch(
+      cartAction.ADD({
+        title: product.title,
+        id: product.id,
+        image: product.image,
+        price: product.price,
+        count: 1,
+      })
+    );
   };
   const goDetail = () => {
     nav(`/product/${product.id}`);
