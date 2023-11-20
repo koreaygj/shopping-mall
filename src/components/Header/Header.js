@@ -15,7 +15,11 @@ function Header() {
       </div>
       <div className={styles.headerNav}>
         <img src={logOut} className={styles.headerLogOut} />
-        <img src={profile} className={styles.headerAccount} />
+        <img
+          src={profile}
+          className={styles.headerAccount}
+          onClick={() => nav("/login")}
+        />
         <div className={styles.headerCart} onClick={() => nav("/cart")}>
           <img src={cartImg} />
           <span className={styles.cartBadge}>{cart.length}</span>

@@ -10,8 +10,7 @@ function ShoppingCart() {
   let totalCost = 0;
   useEffect(() => {
     cart.length === 0 ? setIsEmpty(true) : setIsEmpty(false);
-    console.log(cart);
-  }, []);
+  }, [cart]);
   return (
     <div>
       <Header />
