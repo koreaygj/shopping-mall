@@ -109,3 +109,16 @@
   text-align: center;
   text-decoration: none; /* 링크 버튼의 경우 */
 }
+
+/* 호버 및 포커스 상태 */
+.button:hover,
+.button:focus {
+  background-color: #9a9c98; /* 어두운 색상으로 변경 */
+  color: white;
+}
+
+/* 비활성화 상태 */
+.button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}

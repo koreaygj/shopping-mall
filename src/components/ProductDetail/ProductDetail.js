@@ -15,6 +15,7 @@ function ProductDetail() {
     dispatch(
       cartAction.ADD({
         title: detail.title,
+        category: detail.category,
         id: detail.id,
         image: detail.image,
         price: detail.price,

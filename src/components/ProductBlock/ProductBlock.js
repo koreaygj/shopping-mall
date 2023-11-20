@@ -10,6 +10,7 @@ function ProductBoard({ product }) {
     dispatch(
       cartAction.ADD({
         title: product.title,
+        category: product.category,
         id: product.id,
         image: product.image,
         price: product.price,
