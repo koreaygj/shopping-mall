@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import ProductBoard from "../ProductBoard/ProductBlock";
+import ProductBoard from "../ProductBlock/ProductBlock";
 import styles from "./Board.module.css";
 
 function Board() {
