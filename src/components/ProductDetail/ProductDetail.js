@@ -69,7 +69,7 @@ function ProductDetail() {
               className={styles.count}
               defaultValue={1}
               type="number"
-              onChange={(e) => setCounter(e.target)}
+              onChange={(e) => setCounter(e.target.value)}
             ></input>
             <button className={styles.button}>
               <span onClick={addToCart}>Add To Cart</span>
