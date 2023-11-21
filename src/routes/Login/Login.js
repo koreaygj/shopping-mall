@@ -41,7 +41,7 @@ function Login() {
           />
           <button>로그인</button>
         </form>
-        <button>회원가입 하러 가기</button>
+        <button onClick={() => nav("/register")}>회원가입 하러 가기</button>
       </div>
     </div>
   );
