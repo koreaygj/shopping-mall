@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 0 auto;
+  margin: 4cqi auto;
   padding: 20px;
   max-width: 400px;
   border: 1px solid #ccc;
@@ -24,7 +24,7 @@
   width: 100%;
   padding: 10px;
   margin-top: 10px;
-  background-color: #007bff;
+  background-color: #9a9c98;
   color: white;
   border: none;
   border-radius: 5px;
@@ -33,5 +33,5 @@
 }
 
 .loginContainer button:hover {
-  background-color: #0056b3;
+  background-color: #dce0d9;
 }
